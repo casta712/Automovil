@@ -7,7 +7,14 @@ package com.casta712.autos.igu;
 public class Principal extends javax.swing.JFrame {
 
     public Principal() {
-        initComponents();
+        initComponents(); jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        btnConsulta = new javax.swing.JButton();
+        btnSalir = new javax.swing.JButton();
+        btnAltaAuto = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     }
 
     /**
